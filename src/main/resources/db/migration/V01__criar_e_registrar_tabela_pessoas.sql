@@ -1,0 +1,6 @@
+CREATE TABLE pessoa(
+    codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    cpf BIGINT(11) NOT NULL,
+    data_nascimento DATE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
